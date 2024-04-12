@@ -1,0 +1,73 @@
+*{padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.a{display: flex;
+     width: 100%;
+    height: 100vh;
+     justify-content: center;
+    align-items: center;
+background-color: rgb(128, 0, 255);
+}
+.calculator{
+    background-color: black;
+    padding: 20px;
+
+
+}
+form input{
+   background-color: rgb(43, 56, 67);
+    width: 70px;
+height: 70px;
+border-radius: 50%;
+border: 0;
+color: blue;
+font-size: 2rem;
+margin: 5px;
+}
+hr{
+    margin: 5px;;
+}
+form .display{
+    display: flex;
+    justify-content: end;
+}
+form .display input{
+    flex: 1; border-radius: 0%;
+    height: 120px;
+    text-align: right;
+    border: 0;
+    background-color: black;
+    
+}
+form .sil{
+    display: flex;
+justify-content: end;}
+form .sil input{
+border-top-left-radius: 45%;
+border-bottom-left-radius: 45%;
+border-top-right-radius:0;
+border-bottom-right-radius: 0%;
+width: 30px;height: 20px;
+margin-left: 150px;margin-right: 10px;
+font-size: 1rem;
+}
+form .elm input{
+    border-radius: 0%;
+width: 30px;height: 20px;font-size: 1rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+}
+#tel{ 
+    color: brown;
+}
+.ft{
+    background-color: rgb(142, 96, 96);
+}
+#te{
+    color: crimson;
+}
